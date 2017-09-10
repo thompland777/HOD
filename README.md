@@ -1,2 +1,4 @@
 # HOD
 Hackon(Data) 2017
+
+We focused on using text analytics to engineer attributes of a review like sentiment, emotions, and frequent word counts. We created an app with interactive data visualizations that allow companies to compare/contrast their brands performance over time. We are not using Spark for the proof-of-concept and instead experimenting with the following tools: Python, Alteryx, Azure ML Studio, Jupyter Notebook, Power BI and a subset of the Amazon reviews (Patio, Lawn, and Garden - 5-core reviews and product metadata). We also used feature importance to identify attributes that are the most predictive of a brands overall sales rank. As a next step we have started developing a model to identify fake reviews using unsupervised modeling techniques like clustering to identify outliers for further investigation.      
